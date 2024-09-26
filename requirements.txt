@@ -1,0 +1,10 @@
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-Redis
+redis
+Flask-Mail
+Flask-RESTful
+Flask-SocketIO
+python-dotenv
+pymysql
