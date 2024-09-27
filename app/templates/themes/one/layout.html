@@ -1,0 +1,27 @@
+{% extends 'layouts/template.html' %}
+{# LANG HTML #}
+{% block html_lang %}en{% endblock html_lang %}
+{# TITLE #}
+{% block title %}{% endblock title %}
+{# METAS #}
+{% block meta %}
+<link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+{% endblock meta %}
+{# SEOS #}
+{% block seo %}{% endblock seo %}
+{# HEADER SCRIPTS #}
+{% block head_scripts %}{% endblock head_scripts %}
+{# STYLES #}
+{% block styles %}{% endblock styles %}
+{# CLASS FOR BODY #}
+{% block body_class %}{% endblock body_class %}
+{# HEADER #}
+{% block header %}{% endblock header %}
+{# CONTENT #}
+{% block content %}{% endblock content %}
+{# FOOTER #}
+{% block footer %}{% endblock footer %}
+{# SCRIPTS #}
+{% block scripts %}
+<script src="{{ url_for('static',filename='core/client/js/script.js') }}"></script>
+{% endblock scripts %}

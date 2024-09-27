@@ -4,7 +4,6 @@ from flask_redis import FlaskRedis
 from flask_mail import Mail
 from flask_restful import Api
 from flask_socketio import SocketIO
-
 db = SQLAlchemy()
 migrate = Migrate()
 redis_client = FlaskRedis()

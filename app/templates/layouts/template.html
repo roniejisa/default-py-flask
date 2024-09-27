@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}en{% endblock html_lang %}">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {# TITLE #}
+    <title>{% block title %}Dashboard{% endblock title %}</title>
+    {# METAS #}
+    {% block meta %}{% endblock meta %}
+    {# SEOS #}
+    {% block seo %}{% endblock seo %}
+    {# HEADER SCRIPTS #}
+    {% block head_scripts %}{% endblock head_scripts %}
+    {# STYLES #}
+    {% block styles %}{% endblock styles %}
+</head>
+<body class="{% block body_class %}{% endblock body_class %}">{# HEADER #}{% block header %}{% endblock header %}{# CONTENT #}{% block content %}{% endblock content %}{# FOOTER #}{% block footer %}{% endblock footer %}{# SCRIPTS #}{% block scripts %}{% endblock scripts %}</body>
+</html>

@@ -8,3 +8,4 @@ Flask-RESTful
 Flask-SocketIO
 python-dotenv
 pymysql
+bcrypt
